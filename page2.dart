@@ -341,7 +341,7 @@ class _Page2State extends State<Page2> {
               children: [
                 Container(
                   height: 300,
-                  width: 200,
+                  width: 300,
                   child: BarChart(
                     BarChartData(
                       borderData: FlBorderData(
@@ -350,7 +350,7 @@ class _Page2State extends State<Page2> {
                           bottom: BorderSide(color: Colors.black, width: 1),
                           left: BorderSide(color: Colors.transparent, width: 0),
                           right: BorderSide(color: Colors.transparent, width: 0),
-                          top: BorderSide(color: Colors.transparent, width: 0),
+                          top: BorderSide(color: Colors.transparent, width: 10),
                         ),
                       ),
                       barGroups: [
